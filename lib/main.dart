@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
     return ProviderScope(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'BetUs',
         theme: ThemeData(
           textTheme: GoogleFonts.montserratTextTheme(),
           primarySwatch: Appcolor.primarySwatch,
